@@ -1,5 +1,5 @@
 A Payslip generator, written in a dart console application. 
 
-A target Excel file is populated with the values of an Employee object. 
+A template Excel file is populated with the values of an Employee object to specific cells and a duplicate is generated forEach... 
 
 Just testing my dart skills...
