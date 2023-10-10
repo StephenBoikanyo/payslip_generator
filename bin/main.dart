@@ -7,20 +7,20 @@ import 'package:pdf/widgets.dart' as pw;
 Future<void> main() async {
   final List<Employee> employees = [
     Employee(
-        fullName: 'Roseline Mastas',
-        designation: 'General Worker',
-        salary: 4365.90,
-        employeeNumber: 'EMP001'),
+        fullName: 'Jacob Zuma',
+        designation: 'President',
+        salary: 1000.00,
+        employeeNumber: 'RSA001'),
     Employee(
-        fullName: 'Kagisho Tlotleng',
-        designation: 'General Worker',
-        salary: 4781.00,
-        employeeNumber: 'EMP002'),
+        fullName: 'Cyril Ramaphoses',
+        designation: 'Deputy President',
+        salary: 650.00,
+        employeeNumber: 'RSA002'),
     Employee(
-        fullName: 'Conrad  Mzolo',
-        designation: 'General Worker',
-        salary: 4365.90,
-        employeeNumber: 'EMP003'),
+        fullName: 'Tokyo Sexwale',
+        designation: 'Hitman',
+        salary: 200.00,
+        employeeNumber: 'RSA003'),
   ];
 
   final templateFilePath = 'template.xlsx';
